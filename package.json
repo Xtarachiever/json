@@ -1,0 +1,24 @@
+{
+  "name": "public",
+  "version": "1.0.0",
+  "description": "Fake Rest API",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "json-server --watch db.json",
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xtarachiever/json.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xtarachiever/json/issues"
+  },
+  "homepage": "https://github.com/Xtarachiever/json",
+  "dependencies": {
+    "json-server": "^0.16.2"
+  }
+}
